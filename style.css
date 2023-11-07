@@ -1,0 +1,88 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+body{
+    background-image:url(background.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    width: 100%;
+    margin: auto;
+}
+header{
+    width: 100%;
+    margin: auto;
+}
+
+.contenitore{
+    width: 1000px;
+    padding: 5% 7.5% 5% 7.5%;
+    background-color: hsla(0, 0%, 0%, 0.5) ;
+    border-radius: 2%;
+    margin: auto;
+    margin-top: 2%;
+}
+
+/* logo */
+header img{
+    width: 30%;
+    display: flex;  
+    margin: auto;
+}
+
+/* titolo */
+header h1{
+    color: limegreen;
+    text-align: center;
+}
+
+/* pulsanti */
+nav{
+    background-color: limegreen;
+    padding: 15px;
+    width: 100%;
+    margin: auto;
+}
+
+nav div{
+    width: auto;
+    margin: auto;
+    text-align: center;
+}
+
+button{
+    color: black;
+}
+
+/* dettagli scooter */
+.scooter > span{
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.scooter > p{
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.scooter > div[class="medium-charged"]{
+    width: 350px;
+    height: 25px;
+    background-color: orange;
+    border-radius: 5px;
+}
+
+.scooter > div[class="max-charged"]{
+    width: 600px;
+    height: 25px;
+    background-color: rgb(0, 180, 0);
+    border-radius: 5px;
+}
+
+.scooter > div[class="low-charged"]{
+    width: 150px;
+    height: 25px;
+    background-color: rgb(180, 0, 0);
+    border-radius: 5px;
+}
